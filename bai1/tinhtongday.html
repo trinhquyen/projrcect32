@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <style>
+    .dayso {
+      display: flex;
+      align-items: center;
+    }
+    p {
+      margin-left: 10px;
+    }
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    <label for="sopt">Nhập số phần tử của mảng</label>
+  <input type="text" id="inputNumber">
+  </div>
+  <button id="sinhdayso">Tạo ngẫu nhiên dãy</button>
+  <div class="dayso">Dãy số là:
+    <p class="songaunhien"></p>
+  </div>
+  <button id="tinhtong">Tính tổng</button>
+  <div class="dayso">Tổng mảng:
+    <p id="tongmang">0</p>
+  </div>
+  <div class="dayso">GTLN:
+    <p id="gtln">0</p>
+  </div>
+  <div class="dayso">GTNN:
+    <p id="gtnn">0</p>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="tinhmang.js"></script>
+  
+</body>
+</html>
